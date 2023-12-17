@@ -3,12 +3,7 @@ import mailRouter from "./src/features/contact/sendmail.router.js";
 import cors from "cors";
 const server = express();
 
-server.use(
-  cors({
-    origin: "https://github.io/",
-    methods: ["POST"],
-  })
-);
+server.use(cors());
 
 server.use(express.urlencoded({ extended: true }));
 server.use(express.json());
