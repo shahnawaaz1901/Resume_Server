@@ -5,7 +5,7 @@ const server = express();
 
 server.use(
   cors({
-    origin: "https://shahnawaaz1901.github.io/",
+    origin: "https://github.io/",
     methods: ["POST"],
   })
 );
