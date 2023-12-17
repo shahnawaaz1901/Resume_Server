@@ -4,6 +4,6 @@ import SendMailController from "./sendmail.controller.js";
 const mailRouter = express.Router();
 const mailController = new SendMailController();
 
-mailRouter.post("/sendMail", mailController);
+mailRouter.post("/sendMail", mailController.sendMail);
 
 export default mailRouter;

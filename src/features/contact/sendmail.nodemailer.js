@@ -7,8 +7,9 @@ const sendMail = async (email, name) => {
   });
 
   const object = {
+    from: `Shahnawaaz Ansari`,
     to: email,
-    from: "shaan.ansari1901@gmail.com",
+    from: "Shahnawaaz Ansari",
     subject: "Query Recieved",
     text: `Thankyou ${name} for Reaching Out, We will Connect with You within 24 hours`,
   };
